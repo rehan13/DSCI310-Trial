@@ -1,6 +1,6 @@
-# DSCI310-Trial
+# DSCI310
 Intro git intro
 - `git clone <url>` 
 - `git add <FILE>`
 - `git commit`
-HEHEHE...
+- `git push main origin`
