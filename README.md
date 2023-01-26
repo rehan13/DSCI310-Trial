@@ -18,7 +18,7 @@ e.g., `git push origin main`
 e.g., `git pull origin main`
 `git log --oneline --graph --all`: shows you all your history
 
-## Branches
+## Branches (UPDATED)
 
 - `git branch <name>`: create a branch named <branch> where ever you are (`HEAD`)
 - `git switch <name>`: go to that branch
