@@ -31,3 +31,13 @@ e.g., `git pull origin main`
 1. delete branch PR in github
 2. `git fetch --prune`: update references to deleted branches on the remote
 3. `git branch -d <name>`: delete local branch `<name>`
+
+
+### running Jupyter on Local Host
+1. `docker run --rm --user root -v $(pwd):/opt/notebooks -p 8888:8888 fair-coin-analysis`
+2.  alternate : `docker run -it --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work rehan13/dsci-310-group-08-akrm:latest`
+3. To open localhost `http://localhost:8888/?token=<token>`
+
+### Running  R studio on Local Host
+1. `docker run -e PASSWORD=apassword --rm -p 8787:8787 rocker/rstudio:4.1.3`
+To open `localhost:8787` on browser.
