@@ -33,7 +33,7 @@ e.g., `git pull origin main`
 3. `git branch -d <name>`: delete local branch `<name>`
 
 
-### running Jupyter on Local Host
+### Running Jupyter on Local Host
 1. `docker run --rm --user root -v $(pwd):/opt/notebooks -p 8888:8888 fair-coin-analysis`
 2.  alternate : `docker run -it --rm -p 10000:8888 -v "${PWD}":/home/jovyan/work rehan13/dsci-310-group-08-akrm:latest`
 3. To open localhost `http://localhost:8888/?token=<token>`
